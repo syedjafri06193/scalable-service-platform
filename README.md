@@ -1,30 +1,35 @@
-🏗️ Architecture
-Transitioned from a monolithic architecture to a microservices-based design
-Built loosely coupled services enabling independent development and deployment
-Designed and implemented RESTful APIs for communication between services
-Introduced asynchronous messaging to support high-throughput workloads
+## 🏗️ Architecture
 
-⚙️ Tech Stack
-Backend: C#, .NET Core
-Architecture: Microservices, REST APIs
-Containerization: Docker
-Cloud: Cloud-based deployment
-Database: SQL (optimized queries, indexing)
-Performance: Caching strategies
+- Migrated a legacy monolithic system to a microservices-based architecture
+- Designed loosely coupled services to enable independent development, deployment, and scaling
+- Built RESTful APIs to facilitate inter-service communication
+- Implemented asynchronous messaging to support high-throughput, event-driven workflows
 
-📈 Key Improvements
-Improved scalability through service decomposition and horizontal scaling
-Reduced downtime with independent service deployments
-Enhanced performance via database optimization and caching
-Increased responsiveness using asynchronous processing
+## ⚙️ Tech Stack
 
-🌍 Features
-Location-based barber discovery
-Aggregation of local barbers and services
-Scalable backend capable of handling increasing user demand
+- Backend: C#, .NET Core
+- Architecture: Microservices, REST APIs
+- Containerization: Docker
+- Cloud: Cloud-based infrastructure (provider-agnostic)
+- Database: SQL (query optimization, indexing)
+- Performance: Caching strategies, async processing
 
-🧠 What I Learned
-Designing and implementing microservices architectures
-Understanding trade-offs between monoliths vs distributed systems
-Managing inter-service communication and system reliability
-Using Docker and cloud infrastructure for scalable deployments
+## 📈 Key Improvements
+
+- Achieved horizontal scalability through service decomposition
+- Reduced system downtime with independent service deployments
+- Improved performance via database optimization and caching
+- Increased responsiveness using asynchronous processing
+
+## 🌍 Features
+
+- Location-based barber discovery
+- Aggregation of local barbers and services
+- Scalable backend designed to handle growing user demand
+
+## 🧠 Key Learnings
+
+- Trade-offs between monolithic and distributed architectures
+- Designing resilient microservices systems
+- Managing inter-service communication and reliability
+- Leveraging Docker and cloud infrastructure for scalable deployments
